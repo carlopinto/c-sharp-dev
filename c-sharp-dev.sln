@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HugeCSVGenerator", "HugeCSVGenerator\HugeCSVGenerator.csproj", "{D272565A-D662-454D-A638-C203093794E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HugeCSVGenerator.Tests", "HugeCSVGenerator.Tests\HugeCSVGenerator.Tests.csproj", "{402CD625-8B27-431A-B7D4-576269A6A91D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{D272565A-D662-454D-A638-C203093794E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D272565A-D662-454D-A638-C203093794E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D272565A-D662-454D-A638-C203093794E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{402CD625-8B27-431A-B7D4-576269A6A91D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{402CD625-8B27-431A-B7D4-576269A6A91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{402CD625-8B27-431A-B7D4-576269A6A91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{402CD625-8B27-431A-B7D4-576269A6A91D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
