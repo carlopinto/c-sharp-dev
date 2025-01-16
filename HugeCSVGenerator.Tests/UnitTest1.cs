@@ -34,7 +34,8 @@ public class UnitTest1
         Program.GenerateCSV(filePath, 10_000_000);
 
         string[] rows = File.ReadAllLines(filePath);
-        Assert.Equal(10_000_000, rows.Length);
+        // include headers
+        Assert.Equal(10_000_001, rows.Length);
 
         File.Delete(filePath);
     }
