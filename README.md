@@ -1,5 +1,11 @@
 # C# DEVELOPMENT
 
+## LLM Integration
+
+### OpenAI
+
+Blazor Web Application able to call the OpenAI API - via HttpClient instead of OpenAI package.
+
 ## C# Challenges
 
 From TimCorey's Youtube channel: https://www.youtube.com/watch?v=F6BYXz-99qA 
