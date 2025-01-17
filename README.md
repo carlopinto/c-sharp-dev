@@ -6,6 +6,12 @@
 
 Blazor Web Application able to call the OpenAI API - via HttpClient instead of OpenAI package.
 
+## Microsoft Training
+
+### Todo list
+
+Blazor Web Application with todo list page.
+
 ## C# Challenges
 
 From TimCorey's Youtube channel: https://www.youtube.com/watch?v=F6BYXz-99qA 
