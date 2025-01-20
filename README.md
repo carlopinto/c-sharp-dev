@@ -12,6 +12,10 @@ Blazor Web Application able to call the OpenAI API - via HttpClient instead of O
 
 Blazor Web Application with todo list page.
 
+### Pizza web app
+
+Pizza site for the pizza delivery company.
+
 ## C# Challenges
 
 From TimCorey's Youtube channel: https://www.youtube.com/watch?v=F6BYXz-99qA 
