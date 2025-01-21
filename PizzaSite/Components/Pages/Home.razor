@@ -1,15 +1,27 @@
 ﻿@page "/"
-@using PizzaSite.Data
 @inject HttpClient HttpClient
 @inject NavigationManager NavigationManager
-@using PizzaSite.Services
 @inject OrderState OrderState
-@rendermode InteractiveServer
+
+<div class="top-bar">
+    <a class="logo" href="">
+        <img src="img/logo.svg" />
+    </a>
+
+    <NavLink href="" class="nav-tab" Match="NavLinkMatch.All">
+        <img src="img/pizza-slice.svg" />
+        <div>Get Pizza</div>
+    </NavLink>
+
+    <NavLink href="myorders" class="nav-tab">
+        <img src="img/bike.svg" />
+        <div>My Orders</div>
+    </NavLink>
+</div>
 
 <div class="main">
-  <h1>Pizze</h1>
   <ul class="pizza-cards">
-    @if (specials != null)
+    @if (specials is not null)
     {
       @foreach (var special in specials)
       {
@@ -43,13 +55,7 @@
 
             @foreach (var configuredPizza in order.Pizzas)
             {
-              <div class="cart-item">
-                  <div class="title">@(configuredPizza.Size)" @configuredPizza.Special.Name</div>
-                  <div class="item-price">
-                      @configuredPizza.GetFormattedTotalPrice()
-                  </div>
-                  <a @onclick="@(() => OrderState.RemoveConfiguredPizza(configuredPizza))" class="delete-item">x</a>
-              </div>
+                <ConfiguredPizzaItem Pizza="configuredPizza" OnRemoved="@(() => OrderState.RemoveConfiguredPizza(configuredPizza))" />
             }
         </div>
     }
