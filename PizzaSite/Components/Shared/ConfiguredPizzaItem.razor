@@ -1,5 +1,8 @@
 <div class="cart-item">
-    <a @onclick="OnRemoved" class="delete-item">x</a>
+    <button type="button" class="close text-danger" aria-label="Close"
+        @onclick="OnRemoved">
+        <span aria-hidden="true">&times;</span>
+    </button>
     <div class="title">@(Pizza.Size)" @Pizza.Special?.Name</div>
     <ul>
         @foreach (var topping in Pizza.Toppings)
