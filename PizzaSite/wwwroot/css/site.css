@@ -516,6 +516,7 @@ form {
     display: flex;
     align-items: center;
     padding: 1rem 3rem;
+    justify-content: space-between;
 }
 
     .track-order-title h2 {
