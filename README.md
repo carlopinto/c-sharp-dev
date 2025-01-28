@@ -16,6 +16,10 @@ Blazor Web Application with todo list page.
 
 Pizza site for the pizza delivery company.
 
+### Reusable components with Blazor
+
+Build a component, package it and share it with other Blazor applications.
+
 ## C# Challenges
 
 From TimCorey's Youtube channel: https://www.youtube.com/watch?v=F6BYXz-99qA 
