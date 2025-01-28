@@ -8,6 +8,9 @@ Blazor Web Application able to call the OpenAI API - via HttpClient instead of O
 
 ## Microsoft Training
 
+Blazor | ASP.NET Core | .NET
+https://learn.microsoft.com/en-us/training/paths/build-web-apps-with-blazor/
+
 ### Todo list
 
 Blazor Web Application with todo list page.
@@ -19,6 +22,10 @@ Pizza site for the pizza delivery company.
 ### Reusable components with Blazor
 
 Build a component, package it and share it with other Blazor applications.
+
+### Connect Four
+
+Blazor Web app of the classic four-in-a-row Connect Four game.
 
 ## C# Challenges
 
