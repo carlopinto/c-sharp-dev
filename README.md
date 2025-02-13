@@ -8,8 +8,9 @@ Blazor Web Application able to call the OpenAI API - via HttpClient instead of O
 
 ## Microsoft Training
 
-Blazor | ASP.NET Core | .NET
+Blazor | ASP.NET Core | .NET | Minimal API
 https://learn.microsoft.com/en-us/training/paths/build-web-apps-with-blazor/
+https://learn.microsoft.com/en-us/training/paths/aspnet-core-minimal-api/
 
 ### Todo list
 
