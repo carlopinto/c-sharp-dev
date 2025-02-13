@@ -1,6 +1,6 @@
 # Pizza site - Minimal API
 
-.NET 8 | Swagger | in-memory DB to store data
+.NET 8 | Swagger | in-memory DB to store data | EF Core | Persist data to a SQLite DB
 
 Create a minimal API with `dotnet new web`
 

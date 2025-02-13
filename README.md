@@ -28,6 +28,10 @@ Build a component, package it and share it with other Blazor applications.
 
 Blazor Web app of the classic four-in-a-row Connect Four game.
 
+### MinimalAPI
+
+Example of web app built with minimal API and .NET. Usage of in-memory db and then SQLite DB (with EF Core) to persist data.
+
 ## C# Challenges
 
 From TimCorey's Youtube channel: https://www.youtube.com/watch?v=F6BYXz-99qA 
